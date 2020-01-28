@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+nav {
+    position: absolute;
+    z-index: 2;
+    height: 50px;
+    width: 65%;
+    left: 15%;
+}
+
+ul {
+    display: flex;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 30fr 10fr 3fr;
+    grid-gap: 3px;
+    
+}
+
+div {
+    border: 1px solid black;
+}
