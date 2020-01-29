@@ -11,7 +11,7 @@ CSS practise and first use of gradient & background images
 HTML, CSS
 
 # Live demo
-<a href="https://rawcdn.githack.com/dili021/Apple-clone/284dcd52c352a734cdd32587525b59aaf19be069/index.html">Demo link</a>
+<a href="https://rawcdn.githack.com/dili021/Apple-clone/0547ad5f2d6ab3495494b2d9c694c80a7d477fee/index.html">Demo link</a>
 
 # Getting started
 Clone repo and play around if you wish
