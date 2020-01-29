@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 nav {
@@ -17,22 +18,34 @@ ul {
 .container {
     height: 100vh;
     display: grid;
-    grid-template-rows: 30fr 10fr 3fr;
+    grid-template-rows: 3fr 1fr 30px;
     grid-gap: 3px;
     
 }
 
 .main {
-    background: url('/assets/your_verse_hero.jpg') 60% 100% / cover no-repeat;
+    background: url('/assets/your_verse_hero.jpg') 50% 100% / cover no-repeat;
     display: grid;
+    height: 500px;
 }
 .main-links {
     justify-self: center;
     align-self: center;
 }
 
-.main a {
+.main-links h1 {
+    margin: auto;
+    font-size: 2.2em;
+}
+
+.main-links a {
     display: block;
+    font-size: 2em;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+    padding: 15px;    
+    line-height: 1.5em;
 }
 
 .bottom {
