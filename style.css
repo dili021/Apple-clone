@@ -30,3 +30,13 @@ ul {
 .main a {
     display: block;
 }
+
+.bottom {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.bottom img {
+    height: 100%;
+    width:100%;
+}
