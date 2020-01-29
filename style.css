@@ -73,7 +73,7 @@ padding: 3px 30px;
 
 /* main section */
 .main {
-    background: url('/assets/your_verse_hero.jpg') 50% 100% / cover no-repeat;
+    background: url('assets/your_verse_hero.jpg') 50% 100% / cover no-repeat;
     display: grid;
     height: 500px;
     place-items: center;
