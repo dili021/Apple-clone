@@ -22,6 +22,11 @@ ul {
     
 }
 
-div {
-    border: 1px solid black;
+.main {
+    background: url('/assets/your_verse_hero.jpg') 60% 100% / cover no-repeat;
+    
+}
+
+.main a {
+    display: block;
 }
