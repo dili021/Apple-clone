@@ -6,20 +6,17 @@ body {
 .container {
     height: 100vh;
     display: grid;
-    grid-template-rows: 3fr 1fr 30px;
-    grid-gap: 3px;
-    /* place-items: center; */
-    
-    
+    grid-template-rows: 3fr 1fr 30px; 
+    grid-gap: 2px;
 }
 
 /* navbar */
 nav {
 width: 65%;
-margin: 100px 0 0 0;
+margin: 25px 0 0 0;
 }
 
-ul {
+nav ul {
     display: flex;
     width: 100%;
     padding: 0;
@@ -27,16 +24,12 @@ ul {
     list-style: none;
     align-items: center;
     border-radius: 5px;
+    box-shadow: 0 1px 3px black;
 }
 
 ul a {
 text-decoration: none;
 color:white;
-}
-
-ul i {
-    bottom: 5px;
-    position: relative;
 }
 
 ul input {
@@ -46,6 +39,17 @@ ul input {
     border: 1px solid rgb(88, 90, 88);
     box-shadow: inset 0 2px 0 1px black;
     color: white;
+}
+
+.fa-apple{
+    bottom: 5px;
+    position: relative;
+}
+
+.fa-search {
+    position: relative;
+    right: 15px;
+    top: 1px;
 }
 
 .nav-btn {
@@ -67,6 +71,7 @@ padding: 3px 30px;
 }
 /* navbar end */
 
+/* main section */
 .main {
     background: url('/assets/your_verse_hero.jpg') 50% 100% / cover no-repeat;
     display: grid;
@@ -74,12 +79,11 @@ padding: 3px 30px;
     place-items: center;
 }
 .main-links {
-    justify-self: center;
-    align-self: center;
+    position: relative;
+    bottom: 70px;
 }
 
 .main-links h1 {
-    margin: auto;
     font-size: 2.2em;
 }
 
@@ -92,13 +96,65 @@ padding: 3px 30px;
     padding: 15px;    
     line-height: 1.5em;
 }
-
+/* bottom grid */
 .bottom {
     display: grid;
+    grid-gap: 2px;
     grid-template-columns: repeat(4, 1fr);
 }
 
 .bottom img {
     height: 100%;
     width:100%;
+}
+/* bottom grid end */
+/* main section end */
+
+/* footer */
+
+footer {
+    display: flex;
+    font-size: x-small;
+}
+
+.copyright {
+    padding: 0 50px 60px 220px;
+    line-height: 25px;
+    color: grey;
+    width: 950px;
+}
+
+.copyright span {
+    border-right: 1px solid lightgray;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 2px;
+    color: rgb(46, 138, 243);
+}
+
+.footer-links {
+    display: block;
+    height: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.footer-links img {
+    height: 100%;
+}
+
+.footer-links li {
+    border-right: 1px solid lightgray;
+    padding: 0 5px;
+    height: 15px;
+    display: inline-block;
+    right: 5%;
+}
+
+.footer-links :last-child {
+    position: relative;
+    top: 1px;
+    border: none;
 }
