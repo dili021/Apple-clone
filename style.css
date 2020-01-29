@@ -24,7 +24,11 @@ ul {
 
 .main {
     background: url('/assets/your_verse_hero.jpg') 60% 100% / cover no-repeat;
-    
+    display: grid;
+}
+.main-links {
+    justify-self: center;
+    align-self: center;
 }
 
 .main a {
