@@ -1,7 +1,7 @@
 body {
   margin: 0;
 
-  /* box-sizing: border-box; */
+  
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
@@ -12,7 +12,7 @@ body {
   grid-gap: 2px;
 }
 
-/* navbar */
+
 nav {
   width: 65%;
   margin: 25px 0 0 0;
@@ -71,9 +71,6 @@ ul input {
   padding: 3px 30px;
 }
 
-/* navbar end */
-
-/* main section */
 .main {
   background: url('assets/your_verse_hero.jpg') 50% 100% / cover no-repeat;
   display: grid;
@@ -106,7 +103,6 @@ footer a {
   line-height: 1.5em;
 }
 
-/* bottom grid */
 .bottom {
   display: grid;
   grid-gap: 2px;
@@ -117,12 +113,6 @@ footer a {
   height: 100%;
   width: 100%;
 }
-
-/* bottom grid end */
-
-/* main section end */
-
-/* footer */
 
 footer {
   display: flex;
