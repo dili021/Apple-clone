@@ -1,8 +1,8 @@
-# Creators
+# Creator
 Myself
 
 # What is this
-A clone of <a href="https://web.archive.org/web/20140228175622/http://www.apple.com/your-verse/">this old apple page</a>
+A clone of [this old apple page](https://web.archive.org/web/20140228175622/http://www.apple.com/your-verse)
 
 # Purpose
 CSS practise, implementation of gradient & background images
@@ -11,10 +11,7 @@ CSS practise, implementation of gradient & background images
 HTML, CSS
 
 # Live demo
-<a href="https://rawcdn.githack.com/dili021/Apple-clone/0547ad5f2d6ab3495494b2d9c694c80a7d477fee/index.html">Demo link</a>
-
-# Getting started
-Clone repo and play around if you wish
+[Demo link](https://rawcdn.githack.com/dili021/Apple-clone/0547ad5f2d6ab3495494b2d9c694c80a7d477fee/index.html)
 
 # Credits
 Hats off to Microverse.org
