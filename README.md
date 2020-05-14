@@ -1,7 +1,5 @@
+> A clone of an archived [apple page](https://web.archive.org/web/20140228175622/http://www.apple.com/your-verse)
 ![screenshot](https://user-images.githubusercontent.com/55356496/81949141-cc4e3580-9602-11ea-8897-b7529d517d46.png)
-
-# What is this
-A clone of [this old apple page](https://web.archive.org/web/20140228175622/http://www.apple.com/your-verse)
 
 # Creator
 Myself
